@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 function DB(){
     const url = process.env.MONGODB;
@@ -6,7 +6,7 @@ function DB(){
 }
 
 const mdb = mongoose.connection;
-mdb.on("error",()=>{console.error("DB not Connected")});
+mdb.on("error",console.error.bind(console,"Error"));
 mdb.once("open",()=>{
     console.log("DB connected")
 });
