@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* login */
+.loginbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(232, 230, 227);
+}
+.ldestop{
+  background-color: aqua;
+  height: 50vh;
+  width: 50vw;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.lbutton{
+  display: flex;
+  height: 10%;
+  width: auto;
+  border-radius: 8px;
+}
+
+.lbutton button:nth-child(1){
+  width: 50%;
+  height: auto;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  background-color: transparent;
+  font-family: 'Silkscreen', sans-serif;
+}
+.lbutton button:nth-child(2){
+  width: 50%;
+  height: auto;
+  border-top: 0;
+  border-left: 2px solid whitesmoke;
+  border-right: 0;
+  border-bottom: 0;
+  background-color: transparent;
+  font-family: 'Silkscreen', sans-serif;
+}
+.lbutton button:hover{
+  background-color: rgb(232, 230, 227);
+}
+.signin{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: auto;
+}
+.signinuser{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 38px;
+  height: 100%;
+  width: 100%;
+}
+.signinadministrator{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 38px;
+  height: 100%;
+  width: 100%;
+}
+.signinuser label{
+  padding: 3px;
+  font-size: 25px;
+  font-weight: 300;
+  font-family:'Whisper', cursive;
+  text-shadow: 3px 3px gray;
+}
+.username{
+  display: flex;
+  gap: 6px;
+}
+.userpass{
+  display: flex;
+  gap: 6px; 
+}
+.signinuser input{
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 8px;
+}
+.signinuser button{
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 8px;
+  background-color: rgb(232, 230, 227);
+  transition: background-color 0.3s ease-out;
+}
+.signinuser button:hover{
+  background-color: rgb(168, 168, 241);
+}
+.userlink{
+  text-decoration: none;
+}
+.adminlink{
+  text-decoration: none;
+}
+.signinadministrator label{
+  padding: 3px;
+  font-size: 25px;
+  font-weight: 300;
+  font-family:'Whisper', cursive;
+  text-shadow: 3px 3px gray;
+}
+.adminname{
+  display: flex;
+  gap: 6px;
+}
+.userpass{
+  display: flex;
+  gap: 6px; 
+}
+.signinadministrator input{
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 8px;
+}
+.signinadministrator button{
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 8px;
+  background-color: rgb(232, 230, 227);
+  transition: background-color 0.3s ease-out;
+}
+.signinadministrator button:hover{
+  background-color: rgb(168, 168, 241);
+}
+
+
+/* registeration */
+.registerbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(232, 230, 227);
+}
+.rdestop{
+  background-color: aqua;
+  height: 50vh;
+  width: 50vw;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.rbutton{
+  display: flex;
+  height: 10%;
+  width: auto;
+  border-radius: 8px;
+}
+
+.rbutton button:nth-child(1){
+  width: 50%;
+  height: auto;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  background-color: transparent;
+  font-family: 'Silkscreen', sans-serif;
+}
+.rbutton button:nth-child(2){
+  width: 50%;
+  height: auto;
+  border-top: 0;
+  border-left: 2px solid whitesmoke;
+  border-right: 0;
+  border-bottom: 0;
+  background-color: transparent;
+  font-family: 'Silkscreen', sans-serif;
+}
+.rbutton button:hover{
+  background-color: rgb(232, 230, 227);
+}
+.register{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: auto;
+}
+.registeruser{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+}
+.registeradministrator{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+}
+.registeruser label{
+  padding: 3px;
+  font-size: 25px;
+  font-weight: 300;
+  font-family:'Whisper', cursive;
+  text-shadow: 3px 3px gray;
+}
+.name{
+  display: flex;
+  gap: 6px;
+}
+.email{
+  display: flex;
+  gap: 6px; 
+}
+.pass{
+  display: flex;
+  gap: 6px; 
+}
+.cpass{
+  display: flex;
+  gap: 6px; 
+}
+.registeruser input{
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 8px;
+}
+.registeruser button{
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 8px;
+  background-color: rgb(232, 230, 227);
+  transition: background-color 0.3s ease-out;
+}
+.registeruser button:hover{
+  background-color: rgb(168, 168, 241);
+}
+.registerlink{
+  text-decoration: none;
+}
+.registeradministrator label{
+  padding: 3px;
+  font-size: 25px;
+  font-weight: 300;
+  font-family:'Whisper', cursive;
+  text-shadow: 3px 3px gray;
+}
+.registeradministrator input{
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 8px;
+}
+.registeradministrator button{
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 8px;
+  background-color: rgb(232, 230, 227);
+  transition: background-color 0.3s ease-out;
+}
+.registeradministrator button:hover{
+  background-color: rgb(168, 168, 241);
+}
